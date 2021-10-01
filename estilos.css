@@ -1,0 +1,65 @@
+.flex-container{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: gray;
+    font-family: sans-serif;
+}
+
+.flex-item{
+    flex-grow: 1;
+    margin: 20px;
+    max-width:300px ;
+    border: 2px solid rgb(119, 24, 24);
+    padding: 20px;
+
+}
+.flex-item:hover{
+   border-color:gray ;
+   box-shadow:0px 0px 13px rgb(93, 160, 91) ; 
+}
+
+.flex-item:focus{
+    border-color:gray ;
+    box-shadow:0px 0px 13px rgb(93, 160, 91) ; 
+ }
+
+h2, h3{
+    margin: 0;
+}
+
+
+h3{
+    color:green;
+}
+
+p b{
+
+color: greenyellow;
+
+}
+.llave{
+
+    width: 300px;
+
+}
+
+form{
+    width: 100%;
+    text-align: center;
+    padding: 5;px;
+
+}
+
+input[type="submit"]{
+
+background: rgb(46, 66, 46);
+color:white;
+border: none;
+padding: 12px 28px;
+font-size: 17px;
+letter-spacing: 1px;
+
+
+}
